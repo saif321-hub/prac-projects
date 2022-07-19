@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-color: rgb(35, 0, 43);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    overflow: hidden;
+    border-radius: 8%;
+    background-color: rgb(70, 17, 119);
+    margin: 12px;
+    display: flex;
+    height: 550px;
+    width: 300px;
+    flex-direction: column;
+}
+.card2{
+    overflow: hidden;
+    border-radius: 8%;
+    background-color: rgb(232, 123, 13);
+    margin: 12px;
+    display: flex;
+    height: 550px;
+    width: 300px;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+}
+h3{
+   margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #8888;
+    border-radius: 20%;
+    padding: 5px;
+}
+.red{
+color: red;
+}
+.green{
+color: green;
+}
